@@ -7,7 +7,7 @@ class BMIHttpClientNative {
 
   // json-serverを実行しているIPアドレスを指定
   // json-serverを起動するときは「json-server --host <IPアドレス>」で起動すること
-  final String _ipAddress = "192.168.1.128";
+  final String _ipAddress = "XXX.XXX.XXX.XXX";
 
   Future<List<BMI>> getBmi() async {
     List<BMI> list = [];
